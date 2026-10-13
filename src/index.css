@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+
+  --color-brand-dark: #070706;
+  --color-brand-charcoal: #0B0A08;
+  --color-brand-surface: #12100E;
+  --color-brand-card: #181512;
+  --color-brand-yellow: #F4D03F;
+  --color-brand-amber: #E7B93C;
+  --color-brand-gold: #C8922E;
+  --color-brand-brown: #5A321F;
+  --color-brand-deepbrown: #3A2116;
+  --color-brand-cream: #F4EBDD;
+  --color-brand-softcream: #FFF8EA;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0A08;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A241E;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8922E;
+}
+
+/* Subtle Film Grain */
+.bg-grain {
+  background-image: radial-gradient(rgba(244, 208, 63, 0.03) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Glowing text effects */
+.glow-text-gold {
+  text-shadow: 0 0 20px rgba(244, 208, 63, 0.4), 0 0 40px rgba(231, 185, 60, 0.2);
+}
+
+.glow-card {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.8), 0 0 20px -5px rgba(244, 208, 63, 0.08);
+}
+
+.glow-card-hover:hover {
+  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.9), 0 0 30px -2px rgba(244, 208, 63, 0.2);
+  border-color: rgba(244, 208, 63, 0.4);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "The Warm Mug | Brewing Comfort",
+  "description": "Experience The Warm Mug in Ghaziabad. Artisanal coffees, layered matchas, refreshing mocktails, and gourmet bites open 24/7 at Galaxy Blue Sapphire Plaza.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
